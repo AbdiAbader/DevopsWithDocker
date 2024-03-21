@@ -1,0 +1,5 @@
+abdi@ThinkPad:~$ docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+abdi@ThinkPad:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+abdi@ThinkPad:~$ 
