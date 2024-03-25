@@ -1,0 +1,1 @@
+docker run -p 50001:8080 devopsdockeruh/simple-web-service server
