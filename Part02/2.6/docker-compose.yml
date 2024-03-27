@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  fronte:
+    image: frontend
+    container_name: fronte
+    ports:
+      - 5000:5000
+
+  backe:
+    image: backend
+    container_name: backe
+    depends_on:
+      - redis
+      - postgres
+    environment:
+      - REDIS_HOST=redis
+      - POSTGRES_HOST=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - 8080:8080
+  redis:
+    image: redis
+    container_name: redis
+  
+  postgres:
+    image: postgres
+    restart: unless-stopped
+    
+    
+    
