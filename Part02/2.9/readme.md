@@ -4,5 +4,5 @@
 - I update nginx.conf file.
 
 ### Commands
-``` docker compose up ```
-``` docker compose down ```
+- ``` docker compose up ```
+- ``` docker compose down ```
