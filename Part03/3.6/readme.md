@@ -1,0 +1,1 @@
+## -Optimize the Dockerfiles of both app frontend and backend, by joining the RUN commands and removing useless parts.
