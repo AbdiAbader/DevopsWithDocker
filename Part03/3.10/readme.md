@@ -1,0 +1,1 @@
+## i have build docker file for my server project that is based on node js i used multi stage docker file building
